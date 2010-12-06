@@ -1,6 +1,12 @@
 = dehumanize
 
-Description goes here.
+This is a very small gem to provide ActiveSupport::Inflector#dehumanize, the inverse of the humanize method.
+
+= Example
+
+'Personal Phone' => 'personal_phone'
+'HatRack' => 'hat_rack'
+'Home address' => 'home_address'
 
 == Contributing to dehumanize
  
