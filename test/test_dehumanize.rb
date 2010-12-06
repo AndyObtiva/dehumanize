@@ -1,7 +1,16 @@
 require 'helper'
 
 class TestDehumanize < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+
+  {
+    'Personal Phone' => 'personal_phone',
+    'Home address'   => 'home_address',
+    'HatRack'        => 'hat_rack',
+    'Person'         => 'person',
+  }.each do |human, dehumanized|
+    should "turn '#{human}' to '#{dehumanized}'" do
+      assert_equal(dehumanized, human.dehumanize)
+    end
   end
+
 end
