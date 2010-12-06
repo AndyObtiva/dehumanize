@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Andy Maleh"]
+  s.authors = ["Andy Maleh", "Peter Harkins"]
   s.date = %q{2010-12-06}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Add ActiveSupport::Inflector#dehumanize to invert humanize}
   s.email = %q{andy@obtiva.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "dehumanize.gemspec",
     "lib/dehumanize.rb",
     "test/helper.rb",
     "test/test_dehumanize.rb"
@@ -32,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{ActiveSupport::Inflector#dehumanize}
   s.test_files = [
     "test/helper.rb",
     "test/test_dehumanize.rb"
