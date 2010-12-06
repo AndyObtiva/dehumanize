@@ -15,10 +15,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "dehumanize"
   gem.homepage = "http://github.com/AndyObtiva/dehumanize"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "ActiveSupport::Inflector#dehumanize"
+  gem.description = "Add ActiveSupport::Inflector#dehumanize to invert humanize"
   gem.email = "andy@obtiva.com"
-  gem.authors = ["Andy Maleh"]
+  gem.authors = ["Andy Maleh", "Peter Harkins"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
